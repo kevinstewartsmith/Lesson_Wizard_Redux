@@ -63,11 +63,27 @@
                     <connections>
                         <outlet property="textBox" destination="Cm7-hf-nOz" id="rX0-z1-NeV"/>
                         <outlet property="wordsOnDisplay" destination="iUH-8D-Znw" id="EYc-5s-IY2"/>
+                        <segue destination="rkh-Ig-ROz" kind="presentation" identifier="moveToScrambledVC" id="vPJ-8e-j5j"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="132" y="139"/>
+        </scene>
+        <!--Scrambled View Controller-->
+        <scene sceneID="ZEY-Uh-MX3">
+            <objects>
+                <viewController id="rkh-Ig-ROz" customClass="ScrambledViewController" customModule="Lesson_Wizard_Redux" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="drZ-lw-xRM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.69664239230000002" blue="0.19478653500000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="IS8-bN-SoS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N54-2f-5Lg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="991" y="139"/>
         </scene>
     </scenes>
 </document>

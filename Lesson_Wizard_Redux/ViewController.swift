@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var textBoxText: String?
+    var wordArray = [String]()
+    
     @IBOutlet weak var wordsOnDisplay: UITextView!
     
     
@@ -17,10 +20,21 @@ class ViewController: UIViewController {
     
     
     @IBAction func addWordsPressed(_ sender: UIButton) {
+        wordArray.append(textBox.text ?? "")
+        print(wordArray)
+        let newDisplay = updateDisplayData()
+        print("newDisplay: \(newDisplay)")
+        wordsOnDisplay.text = newDisplay
+            
+        textBox.text = ""
+    
+    
     }
    
     
     @IBAction func scramblePressed(_ sender: UIButton) {
+        performSegue(withIdentifier: "moveToScrambledVC", sender: self)
+    
     }
     
     
@@ -30,7 +44,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    
+    func updateDisplayData() -> String {
+        var rtnString: String = ""
+        for i in wordArray {
+            rtnString = "\(rtnString) \n\(i)"
+            
+            print("yo: \(rtnString)")
+            
+        }
+        
+        return rtnString
+    }
 
 
 }

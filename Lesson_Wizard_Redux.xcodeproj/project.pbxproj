@@ -13,6 +13,7 @@
 		FCB6102F2383D17400362ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB6102D2383D17400362ECF /* Main.storyboard */; };
 		FCB610312383D17600362ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB610302383D17600362ECF /* Assets.xcassets */; };
 		FCB610342383D17600362ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCB610322383D17600362ECF /* LaunchScreen.storyboard */; };
+		FCB6103C2383D5FB00362ECF /* ScrambledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB6103B2383D5FB00362ECF /* ScrambledViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FCB610302383D17600362ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCB610332383D17600362ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCB610352383D17600362ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCB6103B2383D5FB00362ECF /* ScrambledViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrambledViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FCB610272383D17400362ECF /* AppDelegate.swift */,
 				FCB610292383D17400362ECF /* SceneDelegate.swift */,
 				FCB6102B2383D17400362ECF /* ViewController.swift */,
+				FCB6103B2383D5FB00362ECF /* ScrambledViewController.swift */,
 				FCB6102D2383D17400362ECF /* Main.storyboard */,
 				FCB610302383D17600362ECF /* Assets.xcassets */,
 				FCB610322383D17600362ECF /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCB6103C2383D5FB00362ECF /* ScrambledViewController.swift in Sources */,
 				FCB6102C2383D17400362ECF /* ViewController.swift in Sources */,
 				FCB610282383D17400362ECF /* AppDelegate.swift in Sources */,
 				FCB6102A2383D17400362ECF /* SceneDelegate.swift in Sources */,
