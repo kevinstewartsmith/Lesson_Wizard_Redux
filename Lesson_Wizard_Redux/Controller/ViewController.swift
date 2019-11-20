@@ -55,6 +55,12 @@ class ViewController: UIViewController {
         
         return rtnString
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let secondVC = segue.destination as! ScrambledViewController
+        secondVC.wordArrayUnscrambled = wordArray
+        print("preparing for seg: \(wordArray)")
+    }
 
 
 }
